@@ -1,18 +1,23 @@
+.header1{
+    background-color: antiquewhite;
+    font-size: 50px;
+}
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 0 200px ;
 }
 .btn-primary{
     background-color: #FD6E0A;
     padding: 20px ;
     border-radius: 10px;
     color: white;
-    font-size: 50%;
+    font-size: 30px;
 }
 body {
     font-family: "Lato", sans-serif;
     font-family: "Open Sans", sans-serif;
-    font-size: 40px;
+    
   
 }
 .text-butt{
@@ -25,4 +30,8 @@ nav > ul{
 nav li {
     list-style: none;
     margin-right: 50px;
+}
+.picture-side{
+    display: flex;
+    padding: 30px 30px 30px 40px ;
 }
